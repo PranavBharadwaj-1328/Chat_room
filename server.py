@@ -16,7 +16,7 @@ print ("heard")
 while True:
     c, addr = s.accept()
     print ('connection established with', addr)
-    a = 'figlet u are connected to server'
+    a = 'Hi u are connected to PB server'
     #a = str(a)
     b = a.encode()
     c.send(b)
