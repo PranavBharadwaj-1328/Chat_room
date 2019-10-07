@@ -1,7 +1,7 @@
 import socket
 
 s = socket.socket()
-
+#server ip shld be entered
 s.connect(('10.5.1.92',1234))
 
 while True:
