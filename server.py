@@ -4,8 +4,8 @@ import os
 s = socket.socket()
 os.system('figlet socket is set')
 
-host = '10.5.1.92'
-port = 1234
+host = '<client ip>'
+port = 'port no.'
 
 
 s.bind((host,port))
