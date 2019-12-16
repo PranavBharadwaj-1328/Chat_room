@@ -1,7 +1,7 @@
 import socket
 
 s = socket.socket()
-s.connect(('10.5.1.92',1234))
+s.connect(('<server ip>','port no.'))
 while True:
   data = input('->')
   data = str(data)
